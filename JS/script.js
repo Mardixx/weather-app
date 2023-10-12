@@ -1,4 +1,4 @@
-let key = VITE_APIKEY;
+let key = process.meta.env.VITE_APIKEY;
 console.log(key);
 let apiInfo = "https://api.openweathermap.org/data/2.5/forecast?&units=metric&q="
 let inputField = document.querySelector('.cityInput')
