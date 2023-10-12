@@ -1,0 +1,10 @@
+@import '_input.scss';
+@import '_container.scss';
+@import '_weather.scss';
+@import '_reset.scss';
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

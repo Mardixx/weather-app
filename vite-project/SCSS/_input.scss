@@ -1,0 +1,91 @@
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 1rem 0 1rem 0;
+    height: 3rem;
+    border-radius: 50px;
+    width: 90%;
+    
+    .cityInput {
+        height: 1.5rem;
+        border-radius: 50px;
+        width: 80%;
+        border: none;
+        outline: none;
+    }
+
+    img {
+        height: 1.5rem;
+    }
+
+}
+.divComparison {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 1rem 0 1rem 0;
+    height: 3rem;
+    border-radius: 50px;
+    width: 90%;
+    visibility: hidden;
+
+    .comparisonInput {
+        height: 1.5rem;
+        border-radius: 50px;
+        width: 80%;
+        border: none;
+        outline: none;
+    }
+
+    .compareImg {
+        height: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 410px) {
+    .input {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin: 1rem 0 1rem 0;
+        height: 3rem;
+        border-radius: 50px;
+        width: 90%;
+        
+        .cityInput {
+            height: 1.5rem;
+            width: 90%;
+            border-radius: 50px;
+            border: none;
+            outline: none;
+        }
+    }
+
+    .divComparison {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin: 1rem 0 1rem 0;
+        height: 3rem;
+        border-radius: 50px;
+        width: 90%;
+        visibility: hidden;
+    
+        .comparisonInput {
+            height: 1.5rem;
+            width: 90%;
+            border-radius: 50px;
+            border: none;
+            outline: none;
+        }
+    }
+}

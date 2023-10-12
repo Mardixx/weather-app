@@ -1,0 +1,235 @@
+.input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 1rem 0 1rem 0;
+  height: 3rem;
+  border-radius: 50px;
+  width: 90%;
+}
+.input .cityInput {
+  height: 1.5rem;
+  border-radius: 50px;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+.input img {
+  height: 1.5rem;
+}
+
+.divComparison {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 1rem 0 1rem 0;
+  height: 3rem;
+  border-radius: 50px;
+  width: 90%;
+  visibility: hidden;
+}
+.divComparison .comparisonInput {
+  height: 1.5rem;
+  border-radius: 50px;
+  width: 80%;
+  border: none;
+  outline: none;
+}
+.divComparison .compareImg {
+  height: 1.5rem;
+}
+
+@media screen and (min-width: 410px) {
+  .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 1rem 0 1rem 0;
+    height: 3rem;
+    border-radius: 50px;
+    width: 90%;
+  }
+  .input .cityInput {
+    height: 1.5rem;
+    width: 90%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+  }
+  .divComparison {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 1rem 0 1rem 0;
+    height: 3rem;
+    border-radius: 50px;
+    width: 90%;
+    visibility: hidden;
+  }
+  .divComparison .comparisonInput {
+    height: 1.5rem;
+    width: 90%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+  }
+}
+body {
+  background-color: gray;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: 1rem 0 1rem 0;
+  background-color: rgb(117, 219, 219);
+  border-radius: 20px;
+}
+body .container .city {
+  background-color: rgb(230, 220, 208);
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  font-size: 25px;
+  visibility: hidden;
+}
+
+.temperatures {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  margin: 5rem 0 5rem 0;
+  overflow: scroll;
+  height: 75vh;
+}
+.temperatures .weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1rem 1rem 1rem;
+  background-color: rgb(190, 176, 156);
+  padding: 5rem;
+  width: 10%;
+  height: 35vh;
+  border-radius: 10px;
+}
+.temperatures .weather span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+.temperatures .weather .windLogo {
+  width: 20px;
+  height: 20px;
+}
+.temperatures .weather .mistLogo {
+  width: 20px;
+  height: 20px;
+}
+.temperatures .weather .weatherLogo {
+  width: 6rem;
+  height: 6rem;
+}
+
+.tempCompare {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+  margin: 5rem 0 5rem 0;
+  overflow: scroll;
+  height: 75vh;
+}
+.tempCompare .weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 1rem 1rem 1rem;
+  background-color: rgb(190, 176, 156);
+  padding: 5rem;
+  border-radius: 10px;
+  width: 10%;
+  height: 35vh;
+}
+.tempCompare .weather span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+}
+.tempCompare .weather .windLogo {
+  width: 20px;
+  height: 20px;
+}
+.tempCompare .weather .mistLogo {
+  width: 20px;
+  height: 20px;
+}
+.tempCompare .weather .weatherLogo {
+  width: 6rem;
+  height: 6rem;
+}
+
+@media screen and (min-width: 410px) {
+  .temperatures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .temperatures .weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+    background-color: rgb(190, 176, 156);
+    padding: 2.5rem;
+    border-radius: 10px;
+  }
+  .tempCompare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .tempCompare .weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 1rem 0 1rem;
+    background-color: rgb(190, 176, 156);
+    padding: 2.5rem;
+    border-radius: 10px;
+  }
+}
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
