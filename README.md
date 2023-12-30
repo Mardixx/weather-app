@@ -1,7 +1,7 @@
 # W.I.P
 
 
-# Dark Kitchen
+# Weather App
 
 In this project, I made a "Weather App". I made a 5 day prediction for the weather of the city you enter and you can even compare it to another.It went pretty smoothly overall.
 
